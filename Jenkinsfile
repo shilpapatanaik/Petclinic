@@ -1,6 +1,6 @@
 node {
     stage('Clone') {
-        git branch: 'main', url: 'git@github.com:shilpapatanaik/spring-petclinic.git'
+        git branch: 'main', url: 'git@github.com:shilpapatanaik/Petclinic.git'
     }
      stage('Build') {
         bat 'mvn clean install'
