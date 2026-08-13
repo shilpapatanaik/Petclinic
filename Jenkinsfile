@@ -10,7 +10,7 @@ node {
                 
     }    
       stage('artifacts') {
-        archiveArtifacts artifacts: 'target/*.jar', followSymlinks: false
+        archiveArtifacts artifacts: 'target/*.war', followSymlinks: false
                 
     }
       stage('Generate Test Report') {
